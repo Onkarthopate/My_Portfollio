@@ -1,0 +1,185 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+    }
+    /* hero background image */
+    .bgimage {
+    height:100vh;
+    background: url('images/bgimage.jpg');
+    background-size:cover;
+    position:relative;
+    opacity: 0.8;
+    }
+    /* text css above hero image*/
+    .hero_title {
+    font-size: 4.5rem;
+    }
+    .hero_desc {
+    font-size: 2rem;
+    }
+    .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    }
+    /* spacing on all sections */
+    /* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    } */
+    #contact {
+    padding-bottom: 4rem;
+    }
+    /* about section image css */
+    .imageAboutPage {
+    width: 100%;
+    }
+    /* services section css */
+    .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    }
+    .servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    }
+    .card-title {
+    text-align: center;
+    }
+    .card:hover .servicesIcon {
+    color: #fa8f51;
+    }
+    .servicesText:hover {
+    border: 1px solid #23f18a;
+    }
+    /* social media icons styling */
+    .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+    }
+    .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #332dda;
+    }
+    .fab {
+    color: #000000;
+    }
+    /* footer styling */
+    #footer {
+    background-color: #808080;
+    text-align: center;
+    }
+
+    col-lg-6{
+        align-items: center;
+        padding: 34px;
+        margin: 50px;
+    }
+    .imageAboutPage {
+        border-radius: 50%;
+      }
+      
+      .nav-item:hover {
+             background-color: rgb(6, 104, 189);
+             text-decoration: #808080;
+             border-radius: 20%;
+      }
+
+      /* contact section */
+      
+.contact1 {
+	padding: 20px;
+}
+
+.contact1 .content {
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.content1 .title {
+	width: 80%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.title {
+	margin-bottom: 30px;
+	margin-left: 80px;
+}
+
+.contact1Menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.input2 {
+	margin-top: 10;
+}
+
+.label1 {
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bolder;
+}
+
+.contact1Menu .input1 input {
+	border-radius: 13px;
+	padding: 6px;
+}
+
+.input2 input {
+	border-color: rgb(252, 244, 244);
+	width: 400px;
+}
+
+.button {
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+.button button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+}
+
+.button button:hover {
+	background-color: #8cc099;
+}
+
+button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+}
+
+button:hover {
+	background-color: #8cc099;
+}
+
+.rightside1 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 300px;
+}
+
+.title1 {
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+.content1 {
+	width: 450px;
+	margin-top: 2px;
+	color: grey;
+    display: inline;
+}
